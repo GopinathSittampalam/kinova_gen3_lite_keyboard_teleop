@@ -3,7 +3,8 @@ Python code to use keyboard keys to teleoperate Kinova Gen3 Lite robot arm.
 
 Before teleoperation begins, the arm goes to a starting pose that you choose, rather than to the factory Home pose. The idea is that you park the arm once in a good spot for picking up small boxes, export the state from the web app's Monitoring page, and from then on every session begins there.
 
-**Install**
+Install
+---
 First install Kinova Kortex2 Python API and required dependencies following these instructions
 
 https://github.com/Kinovarobotics/Kinova-kortex2_Gen3_G3L/blob/master/api_python/examples/readme.md
